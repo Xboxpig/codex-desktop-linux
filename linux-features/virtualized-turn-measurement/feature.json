@@ -1,0 +1,9 @@
+{
+  "id": "virtualized-turn-measurement",
+  "title": "Virtualized Turn Measurement",
+  "description": "Limits consecutive synchronous conversation row measurements.",
+  "defaultEnabled": false,
+  "entrypoints": {
+    "patchDescriptors": "./patch.js"
+  }
+}

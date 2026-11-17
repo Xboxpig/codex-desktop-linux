@@ -274,6 +274,7 @@ Nix 用户应从 profile、Home Manager 配置或 NixOS module 中删除该包�
 | `wayland-global-shortcuts` | 为弹出聊天、Mini/Pet 等全局快捷键提供原生 Wayland 支持；可独立于听写启用 | [文档](linux-features/wayland-global-shortcuts/README.md) |
 | `global-dictation-gnome` | 无需 RemoteDesktop 会话的可选 GNOME Shell 粘贴扩展；依赖 `global-dictation`，必须显式启用扩展 | [文档](linux-features/global-dictation-gnome/README.md) |
 | `linux-performance-workarounds` | 针对受影响系统的 renderer workaround | [文档](linux-features/linux-performance-workarounds/README.md) |
+| `virtualized-turn-measurement` | 实验性限制同步对话行测高次数 | [文档](linux-features/virtualized-turn-measurement/README.md) |
 | `mcp-helper-reaper` | 安全清理孤立 MCP helper | [文档](linux-features/mcp-helper-reaper/README.md) |
 | `model-picker-default-presets` | 配置 ChatGPT Default 的有序 model/effort 组合 | [文档](linux-features/model-picker-default-presets/README.md) |
 | `node-repl-reaper` | 清理 owner 退出后泄漏的 Browser Use `node_repl` | [文档](linux-features/node-repl-reaper/README.md) |
